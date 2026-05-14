@@ -1,0 +1,25 @@
+programa {
+  funcao inicio() {
+    inteiro numero
+    inteiro contador
+    inteiro pares
+
+    contador = 1
+    pares = 0
+     enquanto(contador <= 10){
+      escreva("digite um numero inteiro: ")
+      leia(numero)
+
+      se(numero % 2 == 0)
+      pares = pares + 1
+      contador = contador + 1
+     }
+    escreva("quantidade de numeros pares digitados: \n", pares)
+
+
+
+
+
+
+  }
+}
