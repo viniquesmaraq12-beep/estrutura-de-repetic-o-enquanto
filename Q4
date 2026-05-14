@@ -1,0 +1,23 @@
+programa {
+  funcao inicio() {
+  inteiro contador = 1
+    inteiro soma = 0
+      inteiro numero
+       enquanto(contador <=5){
+       
+       escreva("\n digite um numero: ")
+       leia(numero)
+
+       soma = soma + numero
+
+        contador = contador + 1
+
+        
+        
+
+
+
+       }
+      escreva(soma)
+  }
+}
