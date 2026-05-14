@@ -1,0 +1,17 @@
+programa {
+  funcao inicio() {
+    inteiro numero
+    inteiro contador = 1 
+    inteiro resultado
+    escreva("digite o numero: ")
+     leia(numero)
+     enquanto(contador != 11){
+      resultado = numero * contador
+        escreva(numero, " X ",contador," = ",resultado, "\n")
+
+        contador = contador + 1
+
+
+     }
+  }
+}
