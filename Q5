@@ -1,0 +1,24 @@
+programa {
+  funcao inicio() {
+    inteiro contador = 1
+    inteiro soma = 0
+      inteiro numero
+       enquanto(contador <=4){
+       
+       escreva("\n digite um numero: ")
+       leia(numero)
+
+       soma = soma + numero
+
+        contador = contador + 1
+
+        
+        
+
+
+
+       }
+      inteiro media = soma /4
+      escreva(media)
+  }
+}
