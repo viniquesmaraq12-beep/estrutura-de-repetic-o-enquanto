@@ -1,0 +1,20 @@
+programa {
+  funcao inicio() {
+    inteiro numero
+    inteiro contador
+    inteiro maior
+      contador = 1
+       enquanto (contador <= 5){
+        escreva("digite um numero inteiro: ")
+         leia(numero)
+         
+       se (contador == 1)
+        maior = numero
+       se (numero > maior)
+        maior = numero
+          contador = contador + 1
+
+       }
+       escreva("o maior valor informado foi: \n", maior)
+  }
+}
